@@ -20,6 +20,17 @@ const Nav = () => {
         <span className='cartCount'>
           Cart Item : {item.length}
         </span>
+
+  
+          {/* {item.map(function(val){
+            return(
+              <div>
+                <h3>{val.id}</h3>
+                <h3>{val.price}</h3>
+              </div>
+            )
+          })} */}
+
       </div>
     </div>
   )

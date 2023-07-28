@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { useDispatch } from 'react-redux' // to dispatch reducers
-import {add} from '../store/cartSlice'
+import { add } from '../store/cartSlice'
 
 const Products = () => {
 

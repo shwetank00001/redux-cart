@@ -22,7 +22,6 @@ const Cart = () => {
     )
   })
 
-
   function handleRemove(id){
     dispatch(remove(id))
   }
